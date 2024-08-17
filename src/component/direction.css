@@ -1,0 +1,26 @@
+.xy{ 
+    position: absolute;
+    left: 990px;
+    top: 480px;
+
+} 
+.ecllipse{
+    position: absolute;
+    left: 1010px;
+    top: 550px;
+}
+.direction{
+    position: absolute;
+    left: 1050px;
+    top: 460px;
+} 
+.distance1{
+    position: absolute;
+    left: 1000px;
+    top: 610px;
+}
+.hight1{
+    position: absolute;
+    left: 1200px;
+    top: 400px;
+}

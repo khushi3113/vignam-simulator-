@@ -1,0 +1,122 @@
+.right{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 300px; 
+    transform: translate(1220px,-2000px);
+   
+} 
+.student1{
+    transform: translate(0px,-50px);
+}
+.fence{
+    display: flex;
+    flex-direction: row;
+    height: 20px; 
+    width:500px; 
+
+} 
+.block11{
+    height: 20px;
+    width:180px; 
+    transform: translate(-30px,0px);
+    background: rgba(27, 32, 61, 1);
+
+
+} 
+.line{
+    display: flex;
+    flex-direction: column;
+    height: 20px; 
+    width:100px;
+
+} 
+.line11{
+    height: 3px;
+    width: 200px;
+    background: rgba(167, 113, 105, 1);
+
+    transform: translate(-20px,5px);
+}
+.line21{
+    height: 3px;
+    width: 200px;
+    background: rgba(167, 113, 105, 1);
+
+    transform: translate(-20px,10px);
+}
+.block21{
+    height: 20px;
+    width:20px; 
+    transform: translate(0px,0px);
+    background: rgba(27, 32, 61, 1);
+
+
+}  
+.border{
+    height: 50px;
+    width:300px; 
+    background: rgba(167, 113, 105, 1);
+    transform: translate(0px,0px);
+} 
+.firstfloor{ 
+    display: flex;
+    flex-direction: row;
+    height:200px;
+    width:300px; 
+    background: rgba(99, 101, 150, 1);
+    transform: translate(0px,0px);
+    gap: 5px;
+    
+
+}  
+.windowline{
+    background: rgba(27, 32, 61, 1);
+    height:170px;
+    width: 22px;
+    margin: 10px;
+
+}
+.border1{
+    height: 10px;
+    width:300px; 
+    background: rgba(167, 113, 105, 1);
+    transform: translate(0px,0px);
+}  
+.border2{
+    height: 30px;
+    width:300px; 
+    background: rgba(27, 32, 61, 1);
+    transform: translate(0px,0px);
+} 
+.secondfloor{
+    display: flex;
+    flex-direction: row;
+    height:200px;
+    width:300px; 
+    background: rgba(99, 101, 150, 1);
+    transform: translate(0px,0px);
+    gap: 5px;
+}  
+.window{
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    width:300px; 
+}
+.windowline1{
+    background: rgba(27, 32, 61, 1);
+    height:30px;
+    width: 30px;
+    margin: 5px;
+
+}
+.thirdfloor{
+    display: flex;
+    flex-direction: row;
+    height:200px;
+    width:300px; 
+    background: rgba(99, 101, 150, 1);
+    transform: translate(0px,0px);
+    gap: 5px;
+}

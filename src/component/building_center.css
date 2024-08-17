@@ -1,0 +1,99 @@
+.center{ 
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 500px; 
+    transform: translate(550px,-100px);
+    align-items: center;
+    
+} 
+.road{
+    height:450px;
+    width:5px;
+    background-color:rgba(27, 32, 61, 1);
+    transform: translate(-120px,50px);
+
+} 
+
+.road2{
+    height:50px;
+    width:5px;
+    background-color:rgba(27, 32, 61, 1);
+    transform: translate(-50px,180px);
+
+}
+.teraceborder{
+    height:50px;
+    width:300px;
+    background-color: rgba(135, 126, 131, 1); 
+    transform: translate(0px,180px);
+    
+
+} 
+
+.terace{
+    height:300px;
+    width:300px;
+    background: rgba(94, 157, 143, 1);
+    transform: translate(0px,180px);
+
+}  
+.teraceget{
+    height:150px;
+    width:50px;
+    background-color:rgba(27, 32, 61, 1);
+    transform: translate(-10px,-15px);
+} 
+.teacherplateform{
+    display: flex;
+    flex-direction: column;
+    transform: translate(170px,-310px);
+}
+.teacher{
+    transform: translate(20px,180px);
+}
+.teacherhand{
+    transform: translate(60px,-20px); 
+} 
+.camera{
+    transform: translate(95px,-85px);
+}
+.plateform{
+    height:30px;
+    width:100px;
+    background: rgb(62, 91, 85);
+    /* transform: translate(170px,-105px); */
+
+}
+.firstflorborder{
+    height:50px;
+    width:500px;
+    background: rgba(135, 126, 131, 1);
+    transform: translateY(-320px);
+
+
+} 
+.firstflor{
+    height:500px;
+    width:500px;
+    background: rgba(77, 124, 131, 1);
+    transform: translateY(-320px);
+
+}
+
+.camera-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .camera-wrapper .cam {
+    display: block;
+  }
+  
+  .camera-wrapper .overlay-image {
+    position: absolute;
+    top: 70px; /* Adjust position as needed */
+    left: 15px; /* Adjust position as needed */
+    height: 120px; /* Adjust size as needed */
+    width: 140px; /* Maintain aspect ratio */
+  }
