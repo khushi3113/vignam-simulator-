@@ -10,9 +10,7 @@ export default function Building_center(props) {
     image="photo2.png";
 
   } 
-  else if(props.height=null){
-    image="photo0.png";
-  }
+
   return (
     <div className='center'>
       <div className='camera-wrapper'>
